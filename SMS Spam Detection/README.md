@@ -6,9 +6,20 @@ This repository contains code for a SMS spam detection project using machine lea
 
 ## Dataset
 
-The dataset used in this project includes a file:
+The dataset used in this project is sourced from Kaggle and is named `spam.csv`. It includes a collection of SMS messages labeled as spam or ham. Each message is associated with a label indicating its category. The dataset is split into training and testing sets for model development and evaluation.
 
-- **SMS_Spam_Detection.ipynb:** Jupyter Notebook containing the code for SMS spam detection.
+## Project Structure
+
+- **1. Data Preprocessing:** Map labels to numeric values (0 for ham, 1 for spam).
+
+- **2. Splitting the Dataset:** Split the dataset into training and testing sets.
+
+- **3. Feature Engineering:** Use TF-IDF vectorization to convert text messages into numerical features.
+
+- **4. Model Training:** Train a Multinomial Naive Bayes classifier.
+
+- **5. Model Evaluation:** Evaluate the model's performance using accuracy, precision, recall, and F1 score.
 
 
 
+Happy coding!
