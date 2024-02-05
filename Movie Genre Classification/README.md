@@ -19,6 +19,5 @@ The dataset used in this project includes two files:
 
 3. Run the notebook cells sequentially to execute the code.
 
-Feel free to use or modify the code for your own projects. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 Happy coding!
